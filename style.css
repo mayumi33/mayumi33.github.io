@@ -1,0 +1,365 @@
+
+.container-fluid{
+  width: 80%;
+}
+.jumbotron-extend {
+  position: relative;
+  height: 100vh;
+  min-height: 300px;
+  background: url(images/AdobeStock_339068268.jpeg) no-repeat center center;
+    background-size: cover;
+}
+
+.jumbotron-container {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translateY(-50%);
+} 
+.site-name {
+  width: 40px;
+  margin-bottom: 40px;
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+}
+
+h2{
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-family: "Avenir", serif;
+  border-left: 5px solid  #5bc8ac;
+  padding-left: 15px;
+
+}
+
+.post-item {
+  margin-bottom: 65px;
+}
+.post-item-header {
+  margin-bottom: 20px;
+}
+.post-item-header .media-body {
+  font-family: "Avenir", serif;
+  vertical-align: middle;
+}
+
+
+
+  .description {
+    margin-bottom: 30px;
+}
+.description .lead {
+    margin-bottom: 25px;
+    font-family: "Myriad Pro", serif;
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom: 2px solid  #5bc8ac;
+}
+
+.profile-img{
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.p-name{
+  line-height: .5;
+}
+
+.icon-list{
+  list-style: none;
+  text-align: center;
+}
+
+.icon-box{
+  margin: 30px 20px;
+  display: inline-block;
+  
+}
+
+.skills-icon{
+  width: 70px;
+  height: 70px;
+  text-align: center;
+}
+
+.box-bottom{
+  text-align: center;
+}
+
+
+.card img{
+  width: 50px;
+  height: 50px;
+  margin: 100px auto;
+}
+
+.card-title{
+  text-align: center;
+}
+ul li{
+  list-style: none;
+  text-align: center;
+  margin-top: 20px;
+}
+.mosha-img{
+  width: 400px;
+  height: 500px;
+  border-radius: 5px;
+}
+
+.w-box-bottom {
+  text-align: center;
+}
+
+
+.Form {
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 720px;
+}
+
+footer p{
+  font-size: 13px;
+  text-align: center;
+  margin-top: 15px;
+}
+@media screen and (max-width: 480px) {
+
+  .site-name h1{
+    margin-bottom: 40px;
+    font-family: 'Playfair Display', serif;
+    font-size: 100px;
+    top: 50;
+  }
+  .jumbotron-container {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translateY(-50%);
+  }
+  
+  .skills-icon{
+    width: 50px;
+    height: 50px;
+  }
+  h2{
+    margin-top: 90px;
+    margin-bottom: 40px;
+    font-family: "Avenir", serif;
+    border-left: 5px solid  #5bc8ac;
+    padding-left: 15px;
+    font-size: 20px;
+  }    
+  }
+  
+@media screen and (max-width: 480px) {
+  .Form {
+    margin-top: 40px;
+  }
+}
+.Form-Item {
+  border-top: 1px solid #ddd;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 480px) {
+  .Form-Item {
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    flex-wrap: wrap;
+  }
+}
+.Form-Item:nth-child(5) {
+  border-bottom: 1px solid #ddd;
+}
+.Form-Item-Label {
+  width: 100%;
+  max-width: 248px;
+  letter-spacing: 0.05em;
+  font-weight: bold;
+  font-size: 18px;
+}
+@media screen and (max-width: 480px) {
+  .Form-Item-Label {
+    max-width: inherit;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+  }
+}
+.Form-Item-Label.isMsg {
+  margin-top: 8px;
+  margin-bottom: auto;
+}
+@media screen and (max-width: 480px) {
+  .Form-Item-Label.isMsg {
+    margin-top: 0;
+  }
+}
+.Form-Item-Label-Required {
+  border-radius: 6px;
+  margin-right: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 48px;
+  display: inline-block;
+  text-align: center;
+  background: #5bc8ac;
+  color: #fff;
+  font-size: 14px;
+}
+@media screen and (max-width: 480px) {
+  .Form-Item-Label-Required {
+    border-radius: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    width: 32px;
+    font-size: 10px;
+  }
+}
+.Form-Item-Input {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-left: 40px;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 48px;
+  flex: 1;
+  width: 100%;
+  max-width: 410px;
+  background: #eaedf2;
+  font-size: 18px;
+}
+@media screen and (max-width: 480px) {
+  .Form-Item-Input {
+    margin-left: 0;
+    margin-top: 18px;
+    height: 40px;
+    flex: inherit;
+    font-size: 15px;
+  }
+}
+.Form-Item-Textarea {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-left: 40px;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 216px;
+  flex: 1;
+  width: 100%;
+  max-width: 410px;
+  background: #eaedf2;
+  font-size: 18px;
+}
+@media screen and (max-width: 480px) {
+  .Form-Item-Textarea {
+    margin-top: 18px;
+    margin-left: 0;
+    height: 200px;
+    flex: inherit;
+    font-size: 15px;
+  }
+}
+.Form-Btn {
+  border-radius: 6px;
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 80px;
+  display: block;
+  letter-spacing: 0.05em;
+  background: #5bc8ac;
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+}
+@media screen and (max-width: 480px) {
+  .Form-Btn {
+    margin-top: 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 160px;
+    font-size: 16px;
+  }
+}
+
+
+
+@media (max-width: 767px) {
+  .jumbotron-extend {
+      height: 300px;
+      min-height: 0;
+      margin-bottom: 40px;
+      /* text-align: center; */
+  }
+  .jumbotron-container {
+      top: 0;
+      transform: translateY(0);
+  }
+  .site-name {
+      /* margin-bottom: 40px;
+      margin-left: 0; */
+      font-size: 30px;
+  }
+
+  .jumbotron-container {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translateY(-50%);
+      } 
+    }
+@media (max-width: 767px) {
+  .post-item {
+      margin-bottom: 30px;
+      padding-bottom: 25px;
+      border-bottom: 1px solid #ccc;
+  }
+  .post-item-header .media-object {
+      width: 31.5px;
+      height: 31.5px;
+  }
+  .post-item-header .media-body .media-heading,
+  .post-item-header .media-body .updated {
+      font-size: 30px;
+  }
+  .post-item h3 {
+      font-size: 18px;
+  }
+  .post-item p {
+      font-size: 14px;
+  }
+  .skills-icon{
+    width: 100px;
+    height: 100px;
+  }
+}
+
+
+
+
+
+  @media (max-width: 767px) {
+    .description{
+      text-align: center;
+    }
+    .description .lead {
+        font-size: 18px;
+      }
+      .mosha-img{
+        width: 300px;
+        height: 200px;
+      }
+      
+    }
